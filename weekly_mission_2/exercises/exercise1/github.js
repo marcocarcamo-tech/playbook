@@ -27,7 +27,7 @@ const issue = {
  labels: {
 	label1: "issue1",
 	label2: "code"
-  }
+  },
  author: "Marco Carcamo",
  dateCreated: "19/04/2022",
  lastUpdated: "20/04/2022",
@@ -47,7 +47,7 @@ const pullRequest = {
  branchName: "dev",
  dateCreated: "20/042022",
  status: "open",
- author: "Marco Carcamo"
+ author: "Marco Carcamo",
  repositoryNameAssociated: "LaunchX",
  getStatus: function(){
  return this.status
@@ -56,4 +56,3 @@ const pullRequest = {
  return `Title: ${this.title} Autor: ${this.author}`
  }
 }
-
